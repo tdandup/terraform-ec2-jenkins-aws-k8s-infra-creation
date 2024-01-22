@@ -59,3 +59,8 @@ eksctl delete cluster --region=us-west-2 --name=kubernetes-cluster #delete eks c
 ## Step 4: Cleanup Terraform Resources
 ```
 terraform destroy -var-file="vars/dev-west-2.tfvars"
+
+
+
+
+Test 
