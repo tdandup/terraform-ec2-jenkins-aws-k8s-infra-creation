@@ -56,11 +56,6 @@ eksctl create cluster --name kubernetes-cluster --version 1.23 --region us-west-
 eksctl delete cluster --region=us-west-2 --name=kubernetes-cluster #delete eks cluster
 ```
 
-## Step 4: Cleanup Terraform Resources
+## Step 4: Cleanup Terraform Resources. Tshering testing commit.
 ```
 terraform destroy -var-file="vars/dev-west-2.tfvars"
-
-
-
-
-Test 
